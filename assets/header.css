@@ -1,0 +1,39 @@
+header {
+  background-color: orange;
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+   
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font: size 42px;
+    transition: 0.5s;
+}
+h1 :hover {
+
+}
+#banner {
+    width:900px;
+    height:250px;;
+    overflow: hidden;
+}
+#banner img {
+    width: auto;
+    height: 250px;
+    margin-left: -50px;
+    float: left;
+    background-image:linear-gradient() ;
+}
+#banner p {
+ 
+   margin: 120px 0 0 0;
+    font-size: 42px;
+    line-height: 40px;
+    color: black;
+ 
+}
+   
+   

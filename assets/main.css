@@ -1,0 +1,100 @@
+main {
+    background-color: rgb(206, 45, 45)
+
+}
+#slogan {
+    font-family:'Times New Roman', Times, serif ;
+    text-align: center;
+    font-size: x-large;
+    color:white;
+}
+.miembros-equipo {
+    display: grid;
+    grid-template-columns: 50px repeat(
+        3,
+        calc(90px + 2.5%) calc(90px + 2.5%) 50px
+      );
+    grid-template-rows: repeat(8, 200px);
+  
+    justify-content: center;
+    margin: auto 0;
+}
+.miembros-equipo img {
+    height: auto;
+  width: calc(180px + 5%);
+  border-radius: 5px;
+}
+#foto-xavi {
+    position:absolute;
+    width: calc(180px + 5%);
+}
+#foto-xavi img {
+    grid-column: 2/4;
+  grid-row: 2/3;
+}
+
+#foto-xavi :hover {
+
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+#foto-xavi p {
+    height: auto;
+  width: calc(180px + 5%);
+  border-radius: 5px;
+  height: 150px;
+  width: auto;
+}
+
+#foto-diego {
+    height: auto;
+  width: calc(180px + 5%);
+  border-radius: 5px;
+  grid-column: 5/6;
+  grid-row: 3/4;
+}
+#foto-diego img {
+    grid-column: 5/6;
+  grid-row: 3/4;
+}
+#foto-diego :hover {
+    
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+.miembros-equipo p {
+    font-family: 'Times New Roman', Times, serif;
+    font: size 32px;
+    transition: all 0.8s;
+    font-weight: bold;
+    color: white;
+}
+.herramientas {
+    max-width: 100%;
+    box-sizing: content-box;
+
+}
+   
+.herramientas h2 {
+ font-size: 3.2em;
+ text-align: center;
+ color:yellow
+}
+.herramientas img{
+    width: 100px;
+    height: 100px;
+    display:grid;
+}
+#html {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#css {
+    padding-right: 15px;
+    padding-left: 15px;
+}
