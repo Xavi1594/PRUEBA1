@@ -1,0 +1,24 @@
+footer {
+    text-align:center;
+      border: 1px; 
+    background-color:bisque;
+    padding-bottom: 0;
+    display: inline-block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
+    font-size: 20px;
+    position: relative;
+  }
+  
+  #eslogan-footer {
+    font-style: italic;
+    text-decoration: blueviolet;
+  }
+  #copy {
+    font-weight: 700;
+  }
+  #nombres-footer {
+    font-style:normal;
+  }
